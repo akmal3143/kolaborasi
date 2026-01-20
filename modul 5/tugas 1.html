@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            height: 50px;
+            padding-top: 5px;
+            margin-top: 25px;
+            border-radius: 16px;
+            box-shadow: 10px 10px 15px 5px rgb(0, 0, 0,0.5);
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-top: 100px;
+        }
+
+        .img-kecil {
+            width: 200px;
+            height: auto;
+            border: 3px solid rgb(0, 123, 255);
+            box-shadow: 10px 10px 15px 5px rgb(0, 123, 255,0.5);
+        }
+
+        .img-sedang {
+            width: 400px;
+            height: auto;
+            border: 3px solid rgb(40, 167, 69);
+            box-shadow: 10px 10px 15px 5px rgb(40, 167, 69,0.5);
+        }
+
+        .img-besar {
+            width: 600px;
+            height: auto;
+            border: 3px solid rgb(220, 53, 69);
+            box-shadow: 10px 10px 15px 5px rgb(220, 53, 69,0.5);
+        }
+
+        img {
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        figcaption {
+            height: 50px;
+            padding-top: 25px;
+            border-radius: 16px;
+            box-shadow: 10px 10px 15px 5px rgb(0, 0, 0,0.5);
+            margin-top: 25px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+</style>
+<body>
+    <h1 align="center">Hobi Saya</h1>
+
+    <div class="container">
+        <figure>
+            <img src="foto/koding.jpg" alt="Sepak Bola" class="img-kecil">
+            <figcaption>ngoding</figcaption>
+        </figure>
+
+        <figure>
+            <img src="foto/animasi.jpg" alt="Membaca Buku" class="img-sedang">
+            <figcaption>Bekerja jadi animator</figcaption>
+        </figure>
+
+        <figure>
+            <img src="foto/belajar.jpg" alt="Bermain Game" class="img-besar">
+            <figcaption>Belajar Hal Baru </figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>
